@@ -1,9 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>회원 가입창</title>
-<link rel="stylesheet" href="css/sub03.css">
+<link rel="stylesheet" href="">
 <script src="js/jquery-1.12.3.js"></script>
 <script src="js/script.js"></script>
 <script>
@@ -34,6 +36,7 @@ function fn_sendMember(){
 </script>
 </head>
 <body>
+<%@ include file="../main/header.jsp" %>
 	<div id="wrap">
 		<form name="frmMember" class="longin">
 		<table>
@@ -60,6 +63,7 @@ function fn_sendMember(){
 		<!-- <hidden> 태그를 이용해 서블릿에게 회원 등록임을 알린다 -->
 		<input  type="hidden" name="command" value="addMember" />	
 		</form>
-	</div>	
+	</div>
+	<%@ include file="../main/footer.jsp" %>	
  </body>
 </html>
