@@ -38,7 +38,7 @@ function fn_sendMember(){
 <body>
 <%@ include file="../main/header.jsp" %>
 	<div id="wrap">
-		<form name="frmMember" class="longin">
+		<form name="frmMember" class="login">
 		<table>
 		   <th>회원 가입창</th>
 		  <tr>
@@ -55,7 +55,7 @@ function fn_sendMember(){
 		  </tr>
 			<tr>
 			<td>이메일</td>
-			<td><input type="text" name="email"></td>
+			<td><input type="text" name="email">@<input type="text" name="email2"></td>
 		  </tr>
 		</table>
 		<input type="button" value="가입하기" onclick="fn_sendMember()">
