@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>회원 가입창</title>
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="css/sub03.css">
 <script src="js/jquery-1.12.3.js"></script>
 <script src="js/script.js"></script>
 <script>
