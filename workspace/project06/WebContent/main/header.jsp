@@ -16,8 +16,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%-- <fmt:setLocale value="en_US" /> --%>
-	<fmt:setLocale value="ko_KR" />
+	<fmt:setLocale value="en_US" />
+	<%-- <fmt:setLocale value="ko_KR" /> --%>
 	<fmt:bundle basename="resource.member">
 		<header>
 		<div id="header1">
